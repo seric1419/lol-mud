@@ -1,0 +1,4 @@
+3
+Blue_golem[lvl7] 400 50 60 20 150 150
+Gray_ghost[lvl7] 400 60 50 20 150 150
+Red_lizard[lvl8] 450 60 70 20 200 200

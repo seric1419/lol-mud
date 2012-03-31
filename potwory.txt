@@ -1,0 +1,14 @@
+13
+Minion_knight[lvl1] 150 10 5 40 10 10
+Minion_mage[lvl1] 100 5 10 40 10 20 
+Small_ghost[lvl2] 120 15 15 40 15 20
+Young_wolf[lvl2] 150 15 15 40 20 40
+Minion_tank[lvl3] 400 30 30 30 30 60
+Wolf[lvl4] 250 30 10 30 40 80
+Golem[lvl5] 300 20 40 30 50 100
+Blue_ghost[lvl6] 1000 60 60 30 100 100
+Blue_golem[lvl7] 1200 70 50 20 150 150
+Gray_ghost[lvl7] 1500 60 70 20 150 150
+Red_lizard[lvl8] 2000 70 70 20 200 200
+Dragon[lvl9] 5000 80 80 10 500 500
+Nashor[lvl10] 10000 100 100 0 1000 1000 

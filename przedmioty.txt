@@ -1,0 +1,23 @@
+22
+Abyssal[bron] 0 0 0 70 b
+Aegis[pancerz] 0 270 0 0 p
+Amplify[bron] 0 0 0 20 b
+Archang[bron] 0 0 0 45 b
+BFS[bron] 0 0 45 0 b
+Bansh[pancerz] 0 375 0 0 p
+Berser[buty] 30 0 15 0 n
+Bilge[bron] 0 0 40 0 b
+Blasti[bron] 0 0 0 40 b
+Mobili[buty] 50 0 0 0 n
+Speed[buty] 10 0 0 0 n
+Swiftn[buty] 45 0 0 0 n
+Brawle[bron] 0 0 8 0 b
+Catal[pancerz] 0 290 0 0 p
+Chain[pancerz] 0 450 0 0 p
+Chali[pancerz] 0 300 0 0 p
+Cloth[pancerz] 0 180 0 0 p
+Dagger[bron] 0 0 15 0 b
+Deathf[bron] 0 0 0 65 b
+Doranb[bron] 0 100 16 0 b
+Doranr[bron] 0 100 0 16 b
+Dorans[pancerz] 0 200 0 0 p
