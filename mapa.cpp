@@ -158,7 +158,7 @@ void Mapa::PokazWalczacych(Potwor* p)
 }
 Gracz* Mapa::getGracz()
 {
-    return getGracz();
+    return gracz1;
 }
 void Mapa::setGracz(Gracz* g)
 {

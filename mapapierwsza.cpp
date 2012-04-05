@@ -42,6 +42,7 @@ int MapaPierwsza::Start()
             else if(napis=="zapisz")
             {
                 getGracz()->ZapiszPostac();
+                cin.ignore();
             }
             else cout << "Nie rozumiem twojego polecenia...jesli nie wiesz co zrobic, sprobuj wpisac pomoc"<<endl;
         }
@@ -284,7 +285,7 @@ int MapaPierwsza::Start()
             return 2;
         }
     }else cout <<"Nie znaleziono pliku z poczatkiem przygody!"<<endl;
-    return 2;
+    return 0;
 }
 
 MapaPierwsza::MapaPierwsza(Gracz* g)

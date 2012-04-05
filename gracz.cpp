@@ -211,7 +211,8 @@ void Gracz::WczytajPostac(char* naz)
             ekwipunek.getPancerz()->setSzybkosc(liczba);
         }
         plik_odczyt.close();
-    } else nazwa=naz;
+    } else setNazwa(naz);
+    cout <<naz<<endl;
 }
 void Gracz::ZapiszPostac()
 {
@@ -267,8 +268,8 @@ void Gracz::ZapiszPostac()
                 plik_zapis << ekwipunek.getPancerz()->getStat_sila()<<endl;
                 plik_zapis << ekwipunek.getPancerz()->getStat_zycie()<<endl;
                 plik_zapis << ekwipunek.getPancerz()->getSzybkosc()<<endl;
-                cout<<"Zapisywanie postaci zakonczone pomyslnie!"<<endl;
             } else plik_zapis << "brak" <<endl;
+            cout<<"Zapisywanie postaci zakonczone pomyslnie!"<<endl;
         }else cout << "Nie dalo sie zapisac postaci!" << endl;
     }else if(odp=="nie") cout <<"\n";
     else cout << "Nieprawidlowe polecenie! Wpisz \"tak\" lub \"nie\"" <<endl;

@@ -171,6 +171,7 @@ void Gra::PrzygotujGracza()
 }
 void Gra::PrzygotujMape()
 {
+    mapa1->setGracz(gracz1);
     fstream plik_odczyt("nazwy_plikow.txt", ios::in);
     if( plik_odczyt.good())
     {
