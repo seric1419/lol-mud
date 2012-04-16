@@ -29,7 +29,7 @@ public:
     Przedmiot* Losujprzedmiot(int); // zwraca losowy przedmiot(uzywane przy wczytowaniu kilka razy)
     Potwor* Losujpotwora(); // zwraca losowe potwora z bazy
     void PokazWalczacych(Potwor*);
-    ~Mapa();
+    virtual ~Mapa();
 
 };
 

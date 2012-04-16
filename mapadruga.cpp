@@ -63,6 +63,7 @@ void MapaDruga::Kupowanie()
     cout<< "Co chcesz kupic?" << endl;
     Przedmiot* p1 = Losujprzedmiot(1);
     int wartosc1= p1->getStat_moc()*10+p1->getStat_sila()*10+p1->getStat_zycie()+p1->getSzybkosc()*10;
+    cout<<" Ilosc twojego zlota: "<<getGracz()->getZloto()<<endl;
     cout<<" Nazwa przedmiotu   Wartosc \tSila\tMoc\tSzybkosc\tZycie"<<endl;
     cout<<"1."<<p1->getNazwa_przedmiotu()<<" za "<<wartosc1<< " zlota."<<"\t"<<p1->getStat_sila()<<"\t"<< p1->getStat_moc()<<"\t"<< p1->getSzybkosc()<< "\t\t"<< p1->getStat_zycie()<<endl;
     Przedmiot* p2 = Losujprzedmiot(2);
